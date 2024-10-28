@@ -1,0 +1,43 @@
+/* Estilos personalizados */
+
+body {
+    padding-top: 56px; /* Compensar el menú de navegación fijo */
+}
+
+#inicio {
+    background-color: #f8f9fa;
+}
+
+#servicios img, #equipo img {
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+}
+
+#servicios img:hover, #equipo img:hover {
+    transform: scale(1.1);
+}
+
+.contacto-telefono {
+    font-size: 1.5em;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.contacto-telefono:hover {
+    color: #007bff;
+}
+
+footer {
+    background-color: #f8f9fa;
+    color: #6c757d;
+}
+
+footer a {
+    color: #6c757d;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+footer a:hover {
+    color: #007bff;
+}
